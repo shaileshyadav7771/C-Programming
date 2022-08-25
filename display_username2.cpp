@@ -3,8 +3,9 @@ using namespace std;
 
 int main() {
   string name;
-  cout << "My name is :";
+  cout << "Please enter your name : ";
   cin >> name;
-  cout << "Welocome Mr : " <<name;
+  getline(cin,name);
+  cout << "Welcome Shailesh Yadav" << name;
   return 0;
 }
