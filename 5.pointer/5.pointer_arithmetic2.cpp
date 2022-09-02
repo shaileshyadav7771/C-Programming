@@ -4,8 +4,12 @@ using namespace std;
 int  main() {
   int A[5] = {2,4,6,8,10};
   int *p = A;
+
   // cout << 2[p] << endl;
   // cout << 2[A] << endl;
+
+  cout << 2[p] << endl;
+
   cout << p <<endl ; //starting address of A
   cout << "Current pointing value : " << *p <<endl;
 
