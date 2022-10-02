@@ -12,8 +12,10 @@ int main()
   }
   cout << "Length of string is  : " << count <<endl;
 
+
   //2nd Way using String Class inbuilt method
   cout << "Length of string is  : " << str.length() <<endl;
+
 
   //3rd Way: Using String Class Iterator..
   string :: iterator it;  //declared
