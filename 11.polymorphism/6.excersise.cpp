@@ -32,7 +32,7 @@ private:
 public:
          Circle(float r){radius=r;}
          float area(){return 3.1425*radius*radius;}
-         float perimeter(){return 2*3.1425*radius;}
+         float perimeter(){return 2*3.1425*radi us;}
 };
 
 

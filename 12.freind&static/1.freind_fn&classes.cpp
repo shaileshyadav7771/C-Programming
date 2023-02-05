@@ -18,4 +18,4 @@ void fun()
   Test t;
   t.c = 10;
   // cout<< "c val is: " << t.c <<endl;
-};
+}
